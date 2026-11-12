@@ -1,0 +1,39 @@
+# NEXUS Market — ملكية الملفات
+# استبدل المعرّفات التالية بحسابات GitHub الفعلية (أو بحساب المالك نفسه إن كانت كل الأدوار تحت حساب واحد).
+# @nexus-admin = Claude 1 | @nexus-c2 = Claude 2 | @nexus-c3 = Claude 3 | @nexus-c4 = Claude 4 | @nexus-c5 = Claude 5
+# القاعدة: آخر نمط مطابق يفوز. الملفات المشتركة تتطلب @nexus-admin دائماً.
+
+*                                   @nexus-admin
+/lib/app/                           @nexus-admin
+/lib/core/                          @nexus-admin
+/lib/core/unit_of_work/             @nexus-admin @nexus-c5
+/lib/core/pdf/                      @nexus-admin @nexus-c5
+/lib/core/database/                 @nexus-admin
+/lib/core/database/tables/inventory/   @nexus-admin @nexus-c2
+/lib/core/database/tables/sales/       @nexus-admin @nexus-c3
+/lib/core/database/tables/finance/     @nexus-admin @nexus-c4
+/lib/core/database/tables/infra/       @nexus-admin @nexus-c5
+/lib/contracts/                     @nexus-admin
+/lib/shared_ui/                     @nexus-admin
+/lib/l10n/                          @nexus-admin
+/lib/features/settings/             @nexus-admin
+/lib/features/products/             @nexus-c2
+/lib/features/inventory/            @nexus-c2
+/lib/features/sales/                @nexus-c3
+/lib/features/pos/                  @nexus-c3
+/lib/features/customers/            @nexus-c3
+/lib/features/purchasing/           @nexus-c4
+/lib/features/suppliers/            @nexus-c4
+/lib/features/accounting/           @nexus-c4
+/lib/features/backup/               @nexus-c5
+/lib/features/sync/                 @nexus-c5
+/test/fakes/                        @nexus-c5
+/test/contracts/                    @nexus-c5
+/test/support/                      @nexus-c5
+/integration_test/                  @nexus-c5
+/tool/                              @nexus-c5 @nexus-admin
+/drift_schemas/                     @nexus-admin
+/docs/                              @nexus-admin
+/pubspec.yaml                       @nexus-admin
+/pubspec.lock                       @nexus-admin
+/.github/                           @nexus-admin

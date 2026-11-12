@@ -1,0 +1,23 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+# الكود المولَّد (يُولَّد بـ dart run build_runner build)
+*.g.dart
+*.drift.dart
+# محلي وحساس
+local.properties
+key.properties
+*.jks
+*.keystore
+.env
+*.db
+*.db-wal
+*.db-shm
+android/app/google-services.json
+# لقطات المخطط تُرفع عمداً: drift_schemas/ غير مُتجاهَل
